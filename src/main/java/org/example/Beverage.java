@@ -10,7 +10,8 @@ public abstract class Beverage {
     @Override
     public String toString() {
         return " | Size: " + size +
-                    (milk != null ? " | Milk: " + milk : "") +
-                    (sweetener != null ? " | Sweetener: " + sweetener : "");
-        }
+                (temperature != null ? " | Temp: " + temperature : "") +
+                (milk != null ? " | Milk: " + milk : "") +
+                (sweetener != null ? " | Sweetener: " + sweetener : "");
+    }
 }
