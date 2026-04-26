@@ -12,7 +12,6 @@ public class OrderDriver {
                 .getLatte();
         Order order1 = new Order(latte, "Takeout");
 
-
         Beverage cappuccino = new BeverageImplementation()
                 .setSize("Medium")
                 .setMilk("Almond")
